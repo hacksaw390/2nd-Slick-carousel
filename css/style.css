@@ -1,0 +1,35 @@
+.my-carousel{
+    position: relative;
+}
+.img-size{
+    height: 600px;
+    width: 1090px;
+}
+.fa-chevron-left:before{
+    font-size: 35px;
+    position: absolute;
+    top: 35%;
+    left: -2%;
+    z-index: 10;
+    background: pink;
+    padding: 15px;
+    border-radius: 5px;
+	cursor: pointer;
+}
+.fa-chevron-right:before{
+    font-size: 35px;
+    position: absolute;
+    top: 35%;
+    right: -2%;
+    z-index: 10;
+    background: pink;
+    padding: 15px;
+    border-radius: 5px;
+	cursor: pointer;
+}
+.img-size2{
+    /*margin: 20px 20px;*/
+    height: 150px;
+    width: 150px;
+}
+
